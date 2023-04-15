@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.alert-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.heading {
+  color: #000000;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 14px;
+  margin-left: 10px;
+}
+.message-container {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.message-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.5;
+}
+.success {
+  color: #2dca73;
+}
+.danger {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
